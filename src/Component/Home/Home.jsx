@@ -5,7 +5,7 @@ import { FaPhone } from "react-icons/fa6";
 const Home = () => {
   return (
     <>
-        <div className='flex flex-col h-screen font-body'>
+        <div className='flex flex-col h-screen font-body '>
             <Nav />
             <div className="bg-[url('/Images/Heroimage.png')] bg-cover bg-center h-screen max-[900px]:hidden">
                 <div className='max-w-[600px] ml-20 flex flex-col justify-center items-start gap-3 h-full -mt-5 '>

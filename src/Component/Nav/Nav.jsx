@@ -41,7 +41,7 @@ const Nav = () => {
             <FaBars className='text-xl' onClick={tooglemenu} />
         </div>
         <div className={`absolute bg-white h-screen top-0 w-full py-10 -ml-7 px-7 transform ${
-            openMenu ? "translate-x-0" : "translate-x-full"
+            openMenu ? "translate-x-0" : " hidden translate-x-full"
         } transition-transform duration-300 ease-in-out `} >
         <div className='flex justify-between items-center'>
             <a href="#">
