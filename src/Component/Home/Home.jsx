@@ -5,9 +5,9 @@ import { FaPhone } from "react-icons/fa6";
 const Home = () => {
   return (
     <>
-        <div className='flex flex-col h-screen font-body '>
+        <div id='Home' className='flex flex-col h-screen font-body max-[900px]:h-full '>
             <Nav />
-            <div className="bg-[url('/Images/Heroimage.png')] bg-cover bg-center h-screen max-[900px]:hidden">
+            <div className="bg-[url('/Images/ryt.png')] bg-cover bg-center h-screen max-[900px]:hidden">
                 <div className='max-w-[600px] ml-20 flex flex-col justify-center items-start gap-3 h-full -mt-5 '>
                     <h1 className='font-extrabold text-5xl '>
                         Reliable, Professional, and Premium Housekeeping Services
@@ -16,16 +16,16 @@ const Home = () => {
                     From home management and pet sitting to event clean-ups and decluttering, we provide reliable and professional services to keep your space organized and stress-free.
                     </p>
                     <div className='bg-[#36B864] p-2 px-3 rounded'>
-                        <p className='font-second text-white flex justify-between items-center gap-2'>
-                            <FaPhone />
-                            347-824-1047
-                        </p>
-                    </div>
+                    <a href="tel:3478241047" className='font-second text-white flex justify-between items-center gap-2'>
+                        <FaPhone />
+                        347-824-1047
+                    </a>
+                </div>
                 </div>
             </div>
             <div className="relative h-screen min-[900px]:hidden ">
   
-        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0" style={{ backgroundImage: "url('/Images/reshero.jpg')" }}></div>
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0" style={{ backgroundImage: "url('/Images/ryt3.png')" }}></div>
 
             <div className="absolute inset-0 bg-black/50 z-10"></div>
 
@@ -37,11 +37,11 @@ const Home = () => {
                 From home management and pet sitting to event clean-ups and decluttering, we provide reliable and professional services to keep your space organized and stress-free.
                 </p>
                 <div className='bg-[#36B864] p-2 px-3 rounded'>
-                        <p className='font-second text-white flex justify-between items-center gap-2'>
-                            <FaPhone />
-                            347-824-1047
-                        </p>
-                    </div>
+                    <a href="tel:3478241047" className='bg-[#36B864] p-2 px-3 rounded font-second text-white flex justify-between items-center gap-2'>
+                        <FaPhone />
+                        347-824-1047
+                    </a>
+                </div>
             </div>
         </div>
 

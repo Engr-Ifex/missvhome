@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import { FaPhone } from "react-icons/fa6";
 import { FaBars } from "react-icons/fa6";
 import { FaTimes } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
@@ -18,10 +17,11 @@ const Nav = () => {
             </a>
         </div>
         <ul className='flex justify-between items-center gap-14'>
-            <li className='hover:text-[#36B864]'><a href="#">Home</a></li>
-            <li className='hover:text-[#36B864]'><a href="#">About</a></li>
-            <li className='hover:text-[#36B864]'><a href="#">Services</a></li>
-            <li className='hover:text-[#36B864]'><a href="#">Contact</a></li>
+            <li className='hover:text-[#36B864]'><a href="#Home">Home</a></li>
+            <li className='hover:text-[#36B864]'><a href="#About">About</a></li>
+            <li className='hover:text-[#36B864]'><a href="#Services">Services</a></li>
+            <li className='hover:text-[#36B864]'><a href="#Pricing">Pricing</a></li>
+            <li className='hover:text-[#36B864]'><a href="#Contact">Contact</a></li>
         </ul>
         <div >
             <p className=' flex justify-between items-center gap-1'>
@@ -53,10 +53,11 @@ const Nav = () => {
             </div>
         </div>
         <ul className='flex flex-col gap-5 mt-10'>
-            <li className='hover:text-[#36B864]'><a href="#">Home</a></li>
-            <li className='hover:text-[#36B864]'><a href="#">About</a></li>
-            <li className='hover:text-[#36B864]'><a href="#">Services</a></li>
-            <li className='hover:text-[#36B864]'><a href="#">Contact</a></li>
+            <li className='hover:text-[#36B864]'><a href="#Home">Home</a></li>
+            <li className='hover:text-[#36B864]'><a href="#About">About</a></li>
+            <li className='hover:text-[#36B864]'><a href="#Services">Services</a></li>
+            <li className='hover:text-[#36B864]'><a href="#Pricing">Pricing</a></li>
+            <li className='hover:text-[#36B864]'><a href="#Contact">Contact</a></li>
         </ul>
         <div className='mt-6' >
             <p className=' flex items-center gap-1'>

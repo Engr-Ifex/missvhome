@@ -4,9 +4,9 @@ import Firstpg from './Pages/Firstpg'
 function App() {
 
   return (
-    <>
+    <div>
      <Firstpg/>
-    </>
+    </div>
   )
 }
 

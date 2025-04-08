@@ -10,3 +10,7 @@
     'home':"url(/src/Components/Home/Images/Heroimage.png)"
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
