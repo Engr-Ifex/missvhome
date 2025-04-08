@@ -10,12 +10,12 @@ const Contact = () => {
         <div id='Contact' className=' scroll-smooth flex justify-end items-center h-full bg-[#fff] pt-20 pl-20 gap-5 max-[900px]:flex-col max-[900px]:pl-0 '>
             <div className='flex flex-col gap-5 max-[900px]:justify-center max-[900px]:items-center '>
                 <h1 className='text-[#111D15] text-4xl font-bold max-w-[500px] max-[900px]:text-center'>Ready to refresh, organize, or care for your space? <br />Let's Talk!</h1>
-                <div className='flex gap-10 max-[900px]:justify-center'>
-                    <div className='text-[#36B864] flex items-center gap-3'>
+                <div className='flex gap-5 max-[900px]:justify-center'>
+                    <div className='text-[#36B864] flex items-center gap-1'>
                         <GiCheckMark />
                         <p>Satisfaction Guaranteed</p>
                     </div>
-                    <div className='text-[#36B864] flex items-center gap-3'>
+                    <div className='text-[#36B864] flex items-center gap-1'>
                         <GiCheckMark />
                         <p>Reliable Service</p>
                     </div>
