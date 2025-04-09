@@ -1,5 +1,5 @@
 import React from 'react'
-import workimg from '/Images/llkj.jpg'
+import workimg from '/Images/newworks.jpg'
 
 const Works = () => {
   return (

@@ -1,6 +1,5 @@
 import React from 'react'
-import contactimg from '/Images/poiuy.jpg'
-import cntbck from '/Images/conph.png'
+import contactimg from '/Images/contatnew.jpg'
 import { GiCheckMark } from "react-icons/gi";
 import { FaPhone } from "react-icons/fa6";
 

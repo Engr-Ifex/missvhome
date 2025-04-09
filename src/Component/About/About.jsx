@@ -1,11 +1,11 @@
 import React from 'react'
-import secimg from '/Images/gffd.jpg'
+import secimg from '/Images/aboutnew.jpg'
 import { AiFillCheckCircle } from "react-icons/ai";
 
 const About = () => {
   return (
     <>
-        <div id='About' className='box-border flex justify-center items-center h-screen gap-20 font-body max-[900px]:flex-col-reverse max-[900px]:my-50 max-[900px]:mx-5'>
+        <div id='About' className='box-border flex justify-center items-center h-screen gap-20 font-body max-[900px]:flex-col-reverse max-[900px]:my-50 max-[900px]:mx-5 mx-10'>
             <div className='max-w-[600px] flex flex-col gap-3 '>
                 <h1 className='font-bold text-4xl max-[900px]:text-center'>Dedicated to Care, Cleanliness & Comfort</h1>
                 <p>At Miss V's Home Management, we take pride in delivering top-quality housekeeping, pet sitting, and event clean-up services. Our mission is to create organized, comfortable, and stress-free environments for our clients. With a passion for excellence and attention to detail, we ensure every space we manage feels welcoming and well-maintained.</p>

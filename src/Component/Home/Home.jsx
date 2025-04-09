@@ -7,7 +7,7 @@ const Home = () => {
     <>
         <div id='Home' className='flex flex-col h-screen font-body max-[900px]:h-full '>
             <Nav />
-            <div className="bg-[url('/Images/ryt.png')] bg-cover bg-center h-screen max-[900px]:hidden">
+            <div className="bg-[url('/Images/Herotes.jpg')] bg-cover bg-center h-screen max-[900px]:hidden">
                 <div className='max-w-[600px] ml-20 flex flex-col justify-center items-start gap-3 h-full -mt-5 '>
                     <h1 className='font-extrabold text-5xl '>
                         Reliable, Professional, and Premium Housekeeping Services
@@ -25,9 +25,9 @@ const Home = () => {
             </div>
             <div className="relative h-screen min-[900px]:hidden ">
   
-        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0" style={{ backgroundImage: "url('/Images/ryt3.png')" }}></div>
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0" style={{ backgroundImage: "url('/Images/reshero-new.jpg')" }}></div>
 
-            <div className="absolute inset-0 bg-black/50 z-10"></div>
+            <div className="absolute inset-0 bg-black/60 z-10"></div>
 
             <div className="relative z-20 max-w-[600px] flex flex-col justify-center items-center gap-3 h-full mx-5 text-white">
                 <h1 className="font-extrabold text-5xl text-center text-[40px]">
